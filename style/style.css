@@ -44,13 +44,13 @@ header > p {
 	padding-bottom: 50px;
 }
 
-header > p > a {
+a {
 	color: white;
 	text-decoration: none;
-	font-weight: bolder;
 }
 
-header > p > a:hover {
+a:hover {
+	color: lightgray;
 	text-decoration: underline;
 }
 
@@ -63,6 +63,10 @@ section {
 	font-size: 3.5vw;
 }
 
+section > p {
+	padding-bottom: 2em;
+}
+
 .normal {
 	background-color: #fff;
 	color: #000;
@@ -70,13 +74,25 @@ section {
 
 .imagem {
 	background-color: #000;
+	background-position: right center;
+	background-size: cover;
+	background-attachment: fixed;
 	color: #fff;
+	box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
 }
 
 .imagem > p {
 	display: inline-block;
 	padding: 5px;
-	background-color: rgba(0, 0, 0, 0.253);
+	background-color: rgba(0, 0, 0, 0.514);
+	text-shadow: 1px 1px 0px black;
+}
+
+#img01{
+	background-image: url('../image/background001.jpg');
+}
+#img02{
+	background-image: url('../image/background002.jpg');
 }
 
 footer {
